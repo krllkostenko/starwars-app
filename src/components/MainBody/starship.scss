@@ -1,0 +1,32 @@
+.ship {
+  width: 233px;
+  height: 220px;
+  background: #212121;
+  border-radius: 11px;
+  margin: 25px;
+  color: #fff;
+  display: flex;
+
+  &:hover {
+    background: #0066FF;
+  }
+
+  & div {
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+    padding: 27px 25px;
+    font-family: Archivo Black, sans-serif;
+    text-transform: uppercase;
+
+    & :first-child {
+      font-size: 45px;
+      line-height: 49px;
+    }
+
+    & :last-child {
+      font-size: 24px;
+      line-height: 26px;
+    }
+  }
+}
